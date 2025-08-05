@@ -12,10 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
 const albumsdata = [
 {name: 'Addison', image: './media/addison-album.jpg'},
 {name: 'Brat', image: './media/brat.jpeg'},
-{name: 'When It’s Dark Out', image: './media/g-eazy-album.jpg'},
-{name: 'Nobody is Listening', image: './media/nil.jpg'},
-{name: 'Whiplash - The 5th Mini Album', image: './media/whiplash.jpg'},
-{name: 'Brat', image: './media/brat.jpeg'}
+{name: 'When It’s Dark Out', image: './media/wtdo.jpg'},
+{name: 'Nobody is Listening', image: './media/nil.jpg'}
 
 ];
     
