@@ -1,21 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
     
     const artistsData = [
-        { name:'Addison Rae', image: './img/addisonrae.jpeg' },
-        { name:'Charli XCX', image: './img/charlixcx.jpg' },
-        { name:'aespa', image: './img/aespa.jpg' },
-        { name:'Zayn', image: './img/zayn.jpg' },
-        { name:'G-eazy', image: './img/g-eazy.jpg' },
+        { name:'Addison Rae', image: './media/addison-rae.jpeg' },
+        { name:'Charli XCX', image: './media/charli-xcx.jpg' },
+        { name:'aespa', image: './media/aespa.jpg' },
+        { name:'Zayn', image: './media/zayn.jpg' },
+        { name:'G-eazy', image: './media/g-eazy.jpg' },
     
 ];
 
 const albumsdata = [
-{name: 'Addison', image: './img/addisonalbum.jpg'},
-{name: 'Brat', image: './img/brat.jpeg'},
-{name: 'When It’s Dark Out', image: './img/g-eazy-album.jpg'},
-{name: 'Nobody is Listening', image: './img/nil.jpg'},
-{name: 'Whiplash - The 5th Mini Album', image: './img/whiplash.jpg'},
-{name: 'Brat', image: './img/brat.jpeg'}
+{name: 'Addison', image: './media/addison-album.jpg'},
+{name: 'Brat', image: './media/brat.jpeg'},
+{name: 'When It’s Dark Out', image: './media/g-eazy-album.jpg'},
+{name: 'Nobody is Listening', image: './media/nil.jpg'},
+{name: 'Whiplash - The 5th Mini Album', image: './media/whiplash.jpg'},
+{name: 'Brat', image: './media/brat.jpeg'}
 
 ];
     
