@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    color: #000;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    z-index: 1;
+    
+}
+
+.sidebar {
+    width: 300px;
+    background: transparent;
+    padding: 10px;
+    padding-bottom: 90x;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    
+}
+
+.nav-logo h2 {
+    color: #fff;
+    position: absolute;
+    margin-left: 40px;
+}
+
+.nav-logo i {
+    font-size: 30px;
+    color: #ffffff;
+    z-index: 1;
+    margin-top: 3px;
+    
+    
+}
+
+.nav-library {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    z-index: 1;
+}
+
+.nav-library i, .nav-library p {
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.nav-playlist, .nav-podcast {
+    background: radial-gradient(#aaaaaa27, #aaaaaa0f);
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-bottom: 1px;
+    z-index: 1;
+    color: white;
+    backdrop-filter: blur(60px);
+}
+
+.nav-playlist button,.nav-podcast button {
+    background: radial-gradient(#00000075,#5e5e5e6e);
+    color: #ffffff;
+    border: none;
+    padding: 6px 10px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 20px;
+    z-index: 1;
+}
+.nav-library i, .nav-library p {
+    font-size: 16px;
+    z-index: 1;
+}
+
+.nav-lang-button {
+    background: radial-gradient(#00000075,#5e5e5e6e);
+    color: #ffffff;
+    padding: 8px 12px;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 12px ;
+    z-index: 1;
+
+}
+
+.nav-footer {
+    margin-top: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1;
+}
+
+.nav-footer a {
+    color: #d0d0d0;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    z-index: 1;
+}
+
+main {
+    padding: 24px;
+    flex-grow: 1;
+    overflow-y: auto;
+
+}
+
+.search-bar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 20px;
+    width: 80%;
+    z-index: 1;
+    background: radial-gradient(#a7949475,#5e5e5e6e);
+    backdrop-filter: blur(40px);
+}
+
+.search-bar input {
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+    z-index: 1;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    color: white ;
+    margin-left: 12px;
+
+}
+.search-bar input::placeholder {
+    color: white;
+}
+
+.search-bar i {
+    color: #ffffff;
+    z-index: 1;
+}
+
+.artists-grid, .albums-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+.artist-card, .album-card {
+    background: linear-gradient(#aaaaaa27, #aaaaaa0f);
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    z-index: 1;
+     backdrop-filter: blur(60px);
+}
+
+.artist-card:hover, .album-card:hover {
+    background: radial-gradient(#3f38383b,#d5d4d401);
+    z-index: 1;
+
+}
+
+.artist-card img {
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.album-card img {
+    border-radius: 7%;
+    z-index: 1;
+}
+
+.artist-card img, .album-card img {
+    width: 100%;
+    margin-bottom: 16px;
+    z-index: 1;
+}
+
+.artist-card h3, .album-card h3 {
+    font-size: 12px;
+    color: #ffffff;
+    z-index: 1;
+
+}
+
+.artist-card p {
+    font-size: 10px;
+    color: #ffffff61;
+    z-index: 1;
+}
+
+.content {
+    margin-top: 40px;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+}
+
+.content h2, .content h2 {
+    margin-bottom: 10px;
+    z-index: 1;
+    color: #fff;
+}
+
+.background-section video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99%;
+    object-fit: cover;
+    z-index: 0;
+
+.nav-bar {
+    top: 10px
+    }
+
+}
